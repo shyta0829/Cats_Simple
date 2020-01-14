@@ -1,0 +1,41 @@
+/* HEADER */
+header {
+	padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid skyblue;
+    border-top: 3px solid skyblue;
+    background: linear-gradient(blueviolet, skyblue, hotpink);
+}
+
+header h2 {
+	font-size: 175%;
+	color: ;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 20px;
+}
+
+/* ASIDE */
+
+
+
+
+
+
+/* MAIN SECTION */
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    clear: both;
+    font-size: 75%;
+    text-align: center
+}

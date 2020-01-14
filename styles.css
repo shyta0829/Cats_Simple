@@ -1,0 +1,203 @@
+/* ------------HOME PAGE------------ */
+
+/* Element styles */
+
+html {
+    background-color: white;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    
+}
+
+/* HEADER */
+header {
+	padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid skyblue;
+    border-top: 3px solid skyblue;
+    background: linear-gradient(blueviolet, skyblue, hotpink);
+}
+header h2 {
+    font-size: 200%;
+    font-style: initial;
+	color: papayawhip;
+}
+header h3 {
+	font-size: 130%;
+    font-style: italic;
+    align-content: center;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px magenta;
+}
+
+/* ASIDE w/ NAV MENU */
+#pet_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#pet_menu ul li {
+	float: left;
+}
+
+#pet_menu ul li a {
+    display: block;
+    width: 215px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: hotpink;
+    color:cornsilk;
+    font-weight: bold;
+}
+#pet_menu a.current {
+	color: cornsilk;
+}
+#pet_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#pet_menu ul ul li {
+	float: none;
+}
+#pet_menu ul li:hover > ul {
+	display: block;
+}
+#pet_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+aside {
+    width: 215px;
+    vertical-align: center;
+    float: right;
+    padding: 0 0 20px 20px;
+    background: linear-gradient(to bottom right, skyblue, purple);
+}
+
+#location {
+    border: 2px thin purple;
+}
+
+.donate_button {
+    background: purple;
+    background-position: 0 0;
+    background-size: 200% 100%;
+    border-radius: 4px;
+    color: #fff;
+    padding: 15px 65px 15px 15px;
+    text-shadow: 1px 1px 5px #666;
+    -webkit-transition: all 800ms;
+    transition: all 800ms;
+}
+
+
+footer {
+    clear: both;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+/* MAIN SECTION*/
+.scottishF {
+    padding: 45px;
+    float: left;
+}
+
+#head2 {
+    border: 2px solid purple;
+    border-radius: 25px;
+    /*box-sizing: boreder-box;*/
+    position: absolute;
+    padding: 15px;
+    margin-top: .5px;
+}
+
+#head3 {
+    
+    border: 2px solid skyblue;
+    border-radius: 25px;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    padding: 15px;
+    position: absolute;
+}
+
+
+#p1 {
+    margin: 20px;
+    padding-top: 10;
+}
+
+#p2 {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+#p3 {
+    margin: 10px;
+    padding-bottom: 80px;
+
+}
+
+#p4 {
+    padding-bottom: 10px;
+}
+
+
+.list {
+    margin: 20px;
+    align-content: center;
+    text-indent: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------CONTENT 1------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------CONTENT 2------------ */

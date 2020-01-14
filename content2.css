@@ -1,0 +1,108 @@
+
+html {
+	background-color: white;
+}
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90%;
+    background-color: white;
+}
+
+h1 {
+    color: hotpink;
+}
+
+h2 {
+    color:cornsilk;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+}
+
+aside {
+    width: 220px;
+    margin: .5em;
+	float: left;
+    padding: 0 0 20px 20px; 
+    background: linear-gradient(to bottom right, skyblue, rgb(141, 7, 141), hotpink);
+}
+
+#feature img {
+    width: 150px;
+    height: 120px;
+
+}
+
+fieldset {
+    margin-bottom: .5em;
+    padding: .5em 1em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 85%;
+    padding-bottom: .5em;
+}
+label, input, select {
+	font-size: 90%;
+}
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+input:required, input[required] input:invalid {
+	border: 2px thin grey
+}
+input:valid {
+	border: 1px solid gray;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+    clear: both;
+}
+#radio label {
+	float: none;
+}
+#radio input {
+	width: auto;
+	margin-left: 3em;
+}
+#exp_month {
+	width: 7em;
+}
+#exp_year {
+	width: 5em;
+}
+#buttons input {
+	width: 10em;
+}
+
+.sponsors {
+    align-items: center;
+    margin: 60px;
+    padding-bottom: 30px;
+
+}
+
+#sponsernow { 
+    font-family: cursive;
+    color: hotpink;
+    font-size: 200%;
+    text-justify: auto;
+    
+}
+
+footer {
+    clear: both;
+    font-size: 80%;
+    text-align: center
+}
